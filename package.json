@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "compile-pug": "pug ./src/pug/index.pug --out ./docs/ --pretty",
+    "compile-css": "sass -s compressed --no-source-map ./src/scss/style.scss ./docs/css/style.css",
+    "compile": "yarn compile-css && yarn compile-pug",
+    "build": "yarn compile"
+  },
+  "dependencies": {
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.35.2"
+  }
+}
