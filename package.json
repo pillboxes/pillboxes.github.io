@@ -6,6 +6,7 @@
     "build": "yarn compile"
   },
   "dependencies": {
+    "include-media": "^1.4.10",
     "pug-cli": "^1.0.0-alpha6",
     "sass": "^1.35.2"
   }
