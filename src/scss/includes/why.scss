@@ -18,16 +18,18 @@
     }
     .why-not {
       display: flex;
-      align-items: center;
+      // align-items: center;
       justify-content: center;
       .why-list {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
         .buttons {
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
+          padding-bottom: 30px;
           margin: -15px;
           & > * {
             margin: 15px;
