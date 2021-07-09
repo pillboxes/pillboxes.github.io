@@ -1,0 +1,32 @@
+.container 
+    h2.tabs-h Возможности приложения PillBox
+    .tabbed 
+        input(type="radio" id="tab1" name="css-tabs" checked)
+        input(type="radio" id="tab2" name="css-tabs")
+        input(type="radio" id="tab3" name="css-tabs")
+
+        .t-list
+
+            ul.tabs 
+                li.tab
+                    label(for="tab1") 
+                        h4 Хранение назначений
+                        p PillBox сохранит назначения врача в целости, а электронный рецепт всегда будет под рукой – он не помнется и не потеряется.                  
+                li.tab    
+                    label(for="tab2")
+                        h4 Поиск лекарств
+                        p До покупки ознакомьтесь с наличием назначенного лекарства в ближайших аптеках, сравните цены и выберите оптимальный вариант
+                li.tab 
+                    label(for="tab3") 
+                        h4 Оформление заказов
+                        p Зарезервируйте лекарство и будьте уверены, что оно «дождется» вас в аптеке.
+
+            .t-img
+                .tab-content
+                    img(src="./img/tabs/safe.png")
+
+                .tab-content
+                    img(src="./img/tabs/search-pills.png")
+
+                .tab-content
+                    img(src="./img/tabs/check.png")
