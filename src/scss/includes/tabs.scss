@@ -85,6 +85,11 @@ h2.tabs-h {
       color: #fff;
       font-size: 16px;
       font-weight: normal;
+      @include media($small-bp) {
+        & {
+          display: none;
+        }
+      }
     }
   }
   border: 1px dashed #f28080;
