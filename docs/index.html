@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pillbox</title>
     <link href="./css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -60,27 +61,33 @@
         <div class="t-list">
           <ul class="tabs"> 
             <li class="tab">
-              <label for="tab1"> 
+              <label class="ml" for="tab1"> 
                 <h4>Хранение назначений</h4>
-                <p>PillBox сохранит назначения врача в целости, а электронный рецепт всегда будет под рукой – он не помнется и не потеряется.                  </p>
+                <p>PillBox сохранит назначения врача в целости, а электронный рецепт всегда будет под рукой – он не помнется и не потеряется.  </p>
+                <label class="arrow next" for="tab2">&raquo;</label>
               </label>
             </li>
             <li class="tab">   
-              <label for="tab2">
+              <label class="ml" for="tab2">
                 <h4>Поиск лекарств</h4>
                 <p>До покупки ознакомьтесь с наличием назначенного лекарства в ближайших аптеках, сравните цены и выберите оптимальный вариант</p>
+                <label class="arrow next" for="tab3">&raquo;</label>
+                <label class="arrow prev" for="tab1">&laquo;</label>
               </label>
             </li>
             <li class="tab"> 
-              <label for="tab3"> 
+              <label class="ml" for="tab3"> 
                 <h4>Оформление заказов</h4>
                 <p>Зарезервируйте лекарство и будьте уверены, что оно «дождется» вас в аптеке.</p>
+                <label class="arrow next" for="tab4">&raquo;</label>
+                <label class="arrow prev" for="tab2">&laquo;</label>
               </label>
             </li>
             <li class="tab future"> 
-              <label for="tab4"> 
+              <label class="ml" for="tab4"> 
                 <h4>Трекер приемов<span>в разработке</span></h4>
                 <p>Отслеживайте приемы лекарственных средств, напоминания помогут не забыть о нужном приеме, также можете отслеживать статиститку всех своих приемов.</p>
+                <label class="arrow prev" for="tab3">&laquo;</label>
               </label>
             </li>
           </ul>
