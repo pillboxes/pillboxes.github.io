@@ -129,6 +129,7 @@ h2.tabs-h {
       position: relative;
       label.ml {
         cursor: default;
+        border: none;
       }
       label.arrow {
         display: block;
@@ -180,5 +181,14 @@ h2.tabs-h {
   .tabbed [type="radio"]:nth-of-type(4):checked ~ .t-list .tabs .tab:nth-of-type(4) label.ml,
   .tabbed [type="radio"]:nth-of-type(5):checked ~ .t-list .tabs .tab:nth-of-type(5) label.ml {
     box-shadow: none;
+  }
+
+  .tabs .tab:nth-of-type(4) label.ml {
+    border: none;
+    h4 {
+      span {
+        top: -40px;
+      }
+    }
   }
 }
