@@ -20,6 +20,13 @@
       background: url(../img/logo.svg) center left no-repeat;
       background-size: 108px 108px;
       padding-left: 140px;
+      @include media($small-bp) {
+        & {
+          font-size: 48px;
+          background-size: 60px 60px;
+          padding-left: 70px;
+        }
+      }
     }
     h3 {
       font-size: 20px;
