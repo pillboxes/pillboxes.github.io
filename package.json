@@ -9,7 +9,8 @@
   "dependencies": {
     "include-media": "^1.4.10",
     "pug-cli": "^1.0.0-alpha6",
-    "sass": "^1.35.2",
+    "sass": "^1.43.4",
     "serve": "^12.0.1"
-  }
+  },
+  "packageManager": "yarn@3.1.0"
 }
