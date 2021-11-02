@@ -35,7 +35,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["include-media", "npm:1.4.10"],
             ["pug-cli", "npm:1.0.0-alpha6"],
             ["sass", "npm:1.43.4"],
             ["serve", "npm:12.0.1"]
@@ -1210,15 +1209,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["include-media", [
-        ["npm:1.4.10", {
-          "packageLocation": "./.yarn/cache/include-media-npm-1.4.10-d6c3397b11-e5187b9632.zip/node_modules/include-media/",
-          "packageDependencies": [
-            ["include-media", "npm:1.4.10"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["indent-string", [
         ["npm:4.0.0", {
           "packageLocation": "./.yarn/cache/indent-string-npm-4.0.0-7b717435b2-824cfb9929.zip/node_modules/indent-string/",
@@ -2285,7 +2275,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["root-workspace-0b6124", "workspace:."],
-            ["include-media", "npm:1.4.10"],
             ["pug-cli", "npm:1.0.0-alpha6"],
             ["sass", "npm:1.43.4"],
             ["serve", "npm:12.0.1"]

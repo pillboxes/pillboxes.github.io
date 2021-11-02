@@ -1026,13 +1026,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"include-media@npm:^1.4.10":
-  version: 1.4.10
-  resolution: "include-media@npm:1.4.10"
-  checksum: e5187b9632994db07d05f384b0a40b45938c017bf12a5abaece929635267c41fd5bb264928582f00f1df7f23e069b8601968252dfafe33de1631f0eefe0d5991
-  languageName: node
-  linkType: hard
-
 "indent-string@npm:^4.0.0":
   version: 4.0.0
   resolution: "indent-string@npm:4.0.0"
@@ -1975,7 +1968,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    include-media: ^1.4.10
     pug-cli: ^1.0.0-alpha6
     sass: ^1.43.4
     serve: ^12.0.1
