@@ -4,6 +4,9 @@
   padding-top: 80px;
   padding-bottom: 80px;
   .container {
+    .qr {
+      padding: 16px;
+    }
     h2 {
       font-size: 36px;
       text-align: center;
@@ -69,6 +72,9 @@
 
 @include media($small-bp) {
   .why-phone-img {
+    display: none;
+  }
+  .qr {
     display: none;
   }
 }
