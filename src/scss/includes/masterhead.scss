@@ -70,6 +70,16 @@
   .phone-img {
     align-self: flex-end;
   }
+  .zdrav {
+    display: flex;
+    margin: 20px auto;
+    p {
+      font-size: 14px;
+      padding-right: 20px;
+      align-self: center;
+      font-weight: 300;
+    }
+  }
 }
 
 @include media($small-bp) {
