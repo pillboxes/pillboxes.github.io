@@ -3,7 +3,7 @@
 		"apps": [],
 		"details": [{
 				"appID": "63C7VXU8JZ.ru.vitakit.main.app",
-				"paths": ["/*"]
+				"paths": ["*"]
 			}
 		]
 	}
