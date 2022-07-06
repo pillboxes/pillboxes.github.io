@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "pug-cli": "^1.0.0-alpha6",
-    "sass": "^1.49.9",
+    "sass": "^1.53.0",
     "serve": "^13.0.2"
   },
   "packageManager": "yarn@3.1.0"
